@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-05-27T09:44:43.536819",
+    "startedAt": "2024-05-27T09:44:43.311838",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\abdul\\Desktop\\ICRL\\Projects\\16 ANLP\\Transformer-based-ensemble-for-emotion-detection\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/Madrid971/Transformer-based-ensemble-for-emotion-detection.git",
+        "commit": "2a4f472ba9efb416810ff8a7c2c7cdd23d714c0b"
+    },
+    "email": "theintelligentcriminologylab@gmail.com",
+    "root": "C:/Users/abdul/Desktop/ICRL/Projects/16 ANLP/Transformer-based-ensemble-for-emotion-detection",
+    "host": "DESKTOP-38ONH9K",
+    "username": "icrl",
+    "executable": "C:\\Users\\abdul\\anaconda3\\envs\\yolo-v8\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3101.0,
+        "min": 0.0,
+        "max": 3101.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3101.0,
+            "min": 0.0,
+            "max": 3101.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.3830108642578,
+            "used": 446.2006187438965
+        }
+    },
+    "memory": {
+        "total": 15.910301208496094
+    }
+}

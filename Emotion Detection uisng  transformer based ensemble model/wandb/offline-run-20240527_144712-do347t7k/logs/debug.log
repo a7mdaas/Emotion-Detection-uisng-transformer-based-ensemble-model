@@ -1,0 +1,27 @@
+2024-05-27 14:47:12,469 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-27 14:47:12,469 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Configure stats pid to 17332
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Loading settings from C:\Users\abdul\.config\wandb\settings
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Loading settings from C:\Users\abdul\Desktop\ICRL\Projects\16 ANLP\Transformer-based-ensemble-for-emotion-detection\wandb\settings
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'C:\\Users\\abdul\\Desktop\\ICRL\\Projects\\16 ANLP\\Transformer-based-ensemble-for-emotion-detection\\train.py', 'program': 'C:\\Users\\abdul\\Desktop\\ICRL\\Projects\\16 ANLP\\Transformer-based-ensemble-for-emotion-detection\\train.py'}
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_init.py:_log_setup():520] Logging user logs to C:\Users\abdul\Desktop\ICRL\Projects\16 ANLP\Transformer-based-ensemble-for-emotion-detection\wandb\offline-run-20240527_144712-do347t7k\logs\debug.log
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_init.py:_log_setup():521] Logging internal logs to C:\Users\abdul\Desktop\ICRL\Projects\16 ANLP\Transformer-based-ensemble-for-emotion-detection\wandb\offline-run-20240527_144712-do347t7k\logs\debug-internal.log
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_init.py:init():560] calling init triggers
+2024-05-27 14:47:12,470 INFO    MainThread:17332 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'balanced': True, 'batch_size': 8, 'classification_loss': 'categorical_crossentropy', 'dataset': 'oversampled_synthetic_task1and2', 'dataset_root_dir': 'C:/Users/abdul/Desktop/ICRL/Projects/16 ANLP/Transformer-based-ensemble-for-emotion-detection', 'description': 'BERT base training, only essay to all predictions', 'epochs': 10, 'freeze_pretrained': False, 'learning_rate': 1e-05, 'lemmatize': False, 'maxlen': 100, 'mode': 'train', 'model': 'ElectraBase', 'monitor_metric': 'f1', 'num_classes': 7, 'optimizer': 'adam', 'regression_loss': 'mean_squared_error', 'regression_task': 'empathy', 'remove_stopwords': False, 'save_best_only': True, 'specialized_num_classes': 3, 'warmup_epochs': 5, 'warmup_factor': 0.1}
+2024-05-27 14:47:12,471 INFO    MainThread:17332 [wandb_init.py:init():610] starting backend
+2024-05-27 14:47:12,471 INFO    MainThread:17332 [wandb_init.py:init():614] setting up manager
+2024-05-27 14:47:12,478 INFO    MainThread:17332 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-27 14:47:12,485 INFO    MainThread:17332 [wandb_init.py:init():622] backend started and connected
+2024-05-27 14:47:12,498 INFO    MainThread:17332 [wandb_init.py:init():711] updated telemetry
+2024-05-27 14:47:12,690 INFO    MainThread:17332 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-27 14:47:12,698 INFO    MainThread:17332 [wandb_init.py:init():795] starting run threads in backend
+2024-05-27 14:47:19,970 INFO    MainThread:17332 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-27 14:47:19,970 INFO    MainThread:17332 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-27 14:47:19,970 INFO    MainThread:17332 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-27 14:47:19,970 INFO    MainThread:17332 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-27 14:47:19,971 INFO    MainThread:17332 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-27 14:47:32,200 WARNING MsgRouterThr:17332 [router.py:message_loop():77] message_loop has been closed
